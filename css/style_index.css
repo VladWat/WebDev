@@ -1,0 +1,50 @@
+body{
+    font-family: font2;
+    background-image: url(../imagini/background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    /* filter: blur(3px);
+    -webkit-filter: blur(3px); */
+}
+
+@font-face {
+    font-family: font2;
+    src: url("../fonts/font2.ttf");
+}
+
+.welcome{
+    font-family: font2;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 100px;
+    margin-bottom: 0px;
+    color: white;
+}
+.proiectIntro {
+    font-family: font2;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    margin-bottom: -150px;
+}
+
+.webDesign {
+    font-family: font2;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}

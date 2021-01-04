@@ -1,0 +1,71 @@
+body{
+    background-image: url(../imagini/background_2.png);
+    background-repeat: no-repeat;
+    background-size: auto; 
+}
+@font-face {
+    font-family: font2;
+    src: url("../fonts/font2.ttf");
+}
+
+.compsBlock {
+    padding: 90px;
+}
+.componente {
+    position: relative;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.componente2 {
+    position: relative;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.componente3 {
+    position: relative;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.componente4 {
+    position: relative;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.componente5 {
+    position: relative;
+    display: inline-block;
+    padding: 15px 10px;
+}
+
+.componente6 {
+    position: relative;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}

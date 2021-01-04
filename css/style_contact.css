@@ -1,0 +1,61 @@
+body{
+    font-family: font2;
+    background-image: url(../imagini/background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    /* filter: blur(3px);
+    -webkit-filter: blur(3px); */
+}
+
+@font-face {
+    font-family: font2;
+    src: url("../fonts/font2.ttf");
+}
+
+.contact {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 5px solid #116c88;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    width: 25%;
+}
+
+input[type=submit]:hover {
+    background-color: #116c88;
+}
+
+.contact {
+    border-radius: 5px;
+    background-color: #127694;
+    padding: 20px;
+    width: 50%;
+    object-position: center;
+}
+
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}

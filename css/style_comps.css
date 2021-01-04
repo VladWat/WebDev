@@ -1,0 +1,31 @@
+body{
+    background-image: url(../imagini/bgcomps.jpg);
+    background-repeat: no-repeat;
+    background-size: auto; 
+}
+@font-face {
+    font-family: font2;
+    src: url("../fonts/font2.ttf");
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+.info {
+    font-family: font2;
+    color: white;
+    position: relative;
+    padding: 10px 100px;
+    border: 5px solid black;
+    text-decoration: none;
+}
